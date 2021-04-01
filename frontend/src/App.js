@@ -96,6 +96,7 @@ function App() {
               setNewContent(e.target.value)
             }} />
             <button className="update" onClick={() => {updateWiki(val.id)}}>Update</button>
+            <p>Last Update: {val.last_updated}</p>
           </div>
         )
       })}
